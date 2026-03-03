@@ -55,11 +55,14 @@ nav:
 
   - CTF:
     - ctf/index.md
-    # - ctf/crypto.md
-    # - ctf/misc.md
-    # - ctf/web.md
-    # - ctf/reverse.md
-    # - ctf/pwn.md
+    - ctf/event.md
+    - Training:
+      - ctf/training/index.md
+    - Tools:
+      - ctf/tools/index.md
+    - Writeup:
+      - ctf/writeup/index.md
+    
 
   - Offensive-Security:
     - offensive-security/index.md
@@ -177,18 +180,17 @@ nav:
     - application-security/index.md
     - Reference-Frame:
       - application-security/reference-frame/index.md
-    - Server-Side Security:
+    - Server-Side:
       - application-security/server-side/index.md
-    - API-Security:
-      - application-security/api-security/index.md
-    - Business-Logic Security:
-      - application-security/business-logic/index.md
-    - Web-Frontend Security:
+    - Web-Frontend:
       - application-security/web-frontend/index.md
       - application-security/web-frontend/javascript-reverse.md
+    - Business-Logic:
+      - application-security/business-logic/index.md
+    - API-Security:
+      - application-security/api-security/index.md
     - Mobile-Security:
       - application-security/mobile-security/index.md
-
     - DAST/Pentesting:
       - application-security/dast/index.md
       - application-security/dast/ast.md
