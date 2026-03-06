@@ -6,6 +6,7 @@ use_directory_urls: true
 theme:
   name: material
   custom_dir: overrides
+  favicon: assets/security.svg
   icon:
     # logo: material/rocket-launch
     logo: material/security
@@ -66,18 +67,18 @@ nav:
 
   - Offensive-Security:
     - offensive-security/index.md
-    - TTPs-Reference:
+    - TTPs:
       - offensive-security/ttps/index.md
       - offensive-security/ttps/apt.md
       - offensive-security/ttps/cyber-kill-chain.md
       - offensive-security/ttps/att-ck.md
-    - Offensive-Practices:
-      - offensive-security/offensive-practices/index.md
-      - offensive-security/offensive-practices/red-teaming.md
-      - offensive-security/offensive-practices/pentesting.md
-      - offensive-security/offensive-practices/bug-bounty.md
-      - offensive-security/offensive-practices/bas.md
-      - offensive-security/offensive-practices/vulnerability-assessment.md
+    - Practices:
+      - offensive-security/practices/index.md
+      - offensive-security/practices/red-teaming.md
+      - offensive-security/practices/pentesting.md
+      - offensive-security/practices/bug-bounty.md
+      - offensive-security/practices/bas.md
+      - offensive-security/practices/vulnerability-assessment.md
     - Training:
       - offensive-security/training/index.md
     - Skills/Tools:
@@ -103,15 +104,15 @@ nav:
 
   - Defensive-Security:
     - defensive-security/index.md
-    - IOCs-Reference:
+    - IOCs:
       - offensive-security/iocs/index.md
-    - Defensive-Practices:
+    - Practices:
       - Blue-Teaming:
-        - defensive-security/defensive-practices/blue-teaming/index.md
+        - defensive-security/practices/blue-teaming/index.md
       - SOC:
-        - defensive-security/defensive-practices/soc/index.md
+        - defensive-security/practices/soc/index.md
       - Vulnerability-Management:
-        - defensive-security/defensive-practices/vulnerability-management/index.md
+        - defensive-security/practices/vulnerability-management/index.md
     - Training:
       - defensive-security/training/index.md
     - Skills/Tools:

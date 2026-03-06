@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <style>
+    /* 默认：白底黑 Logo (浅色模式) */
+    .bg { fill: #ffffff; }
+    .icon { fill: #000000; }
+
+    /* 跟随系统/浏览器深色模式：黑底白 Logo */
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #121212; } /* 稍微柔和一点的黑色，比纯黑 #000000 更有质感 */
+      .icon { fill: #ffffff; }
+    }
+  </style>
+  
+  <rect width="24" height="24" rx="6" class="bg" />
+  
+  <g transform="scale(0.8) translate(3, 3)">
+    <path class="icon" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+  </g>
+</svg>
