@@ -134,55 +134,55 @@ nav:
       
   - Cryptography: 
     - cryptography/index.md
-    - cryptography/crypto-tools.md
-    - cryptography/cryptographic-attack.md
+    - cryptography/tools.md
+    - cryptography/attack.md
 
   - Reverse-Engineering:
     - reverse-engineering/index.md
     - Basic-Tools:
       - reverse-engineering/basic-tools/hex-editor.md
-    - Binary-Analysis:
-      - reverse-engineering/binary-analysis/index.md
+    - Binary:
+      - reverse-engineering/binary/index.md
       # - reverse-engineering/binary-analysis/static-analysis.md
       # - reverse-engineering/binary-analysis/dynamic-analysis.md
       # - reverse-engineering/binary-analysis/hybrid-analysis.md
       - Tools:
-        - reverse-engineering/binary-analysis/tools/disassembler.md
-        - reverse-engineering/binary-analysis/tools/debugger.md
-        - reverse-engineering/binary-analysis/tools/symbolic-execution.md
-        - reverse-engineering/binary-analysis/tools/emulator.md
-        - reverse-engineering/binary-analysis/tools/packers.md
-        - reverse-engineering/binary-analysis/tools/unpackers.md
+        - reverse-engineering/binary/tools/disassembler.md
+        - reverse-engineering/binary/tools/debugger.md
+        - reverse-engineering/binary/tools/symbolic-execution.md
+        - reverse-engineering/binary/tools/emulator.md
+        - reverse-engineering/binary/tools/packers.md
+        - reverse-engineering/binary/tools/unpackers.md
       - Windows/PE:
-        - reverse-engineering/binary-analysis/pe/index.md
-        - reverse-engineering/binary-analysis/pe/debugger.md
+        - reverse-engineering/binary/pe/index.md
+        - reverse-engineering/binary/pe/debugger.md
       - Linux/ELF:
-        - reverse-engineering/binary-analysis/elf/index.md
+        - reverse-engineering/binary/elf/index.md
       - macOS/Mach-O:
-        - reverse-engineering/binary-analysis/mach-o/index.md
+        - reverse-engineering/binary/mach-o/index.md
     - File-Formats:
       - reverse-engineering/file-formats/index.md
       # - reverse-engineering/file-formats/pdf.md
       # - reverse-engineering/file-formats/image-formats.md
       # - reverse-engineering/file-formats/audio-video.md
-    - Protocol-Analysis:
-      - reverse-engineering/protocol-analysis/index.md
-    - Kernel-Analysis:
-      - reverse-engineering/kernel-analysis/index.md
-    - Bytecode-Analysis:
-      - reverse-engineering/bytecode-analysis/index.md
-      - reverse-engineering/bytecode-analysis/jvm.md
-      - reverse-engineering/bytecode-analysis/clr.md
-      - reverse-engineering/bytecode-analysis/pyc.md
-    - Firmware-Analysis:
-      - reverse-engineering/firmware-analysis/index.md
-    - Hardware-Analysis:
-      - reverse-engineering/hardware-analysis/index.md
+    - Protocol:
+      - reverse-engineering/protocol/index.md
+    - Kernel:
+      - reverse-engineering/kernel/index.md
+    - Bytecode:
+      - reverse-engineering/bytecode/index.md
+      - reverse-engineering/bytecode/jvm.md
+      - reverse-engineering/bytecode/clr.md
+      - reverse-engineering/bytecode/pyc.md
+    - Firmware:
+      - reverse-engineering/firmware/index.md
+    - Hardware:
+      - reverse-engineering/hardware/index.md
 
   - App/Web-Security:
     - application-security/index.md
-    - Reference-Frame:
-      - application-security/reference-frame/index.md
+    - Reference:
+      - application-security/reference/index.md
     - Server-Side:
       - application-security/server-side/index.md
     - Web-Frontend:
