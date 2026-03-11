@@ -183,29 +183,31 @@ nav:
     - application-security/index.md
     - Reference:
       - application-security/reference/index.md
-    - App-Server:
-      - application-security/server-side/index.md
+    - Surfaces:
+      - application-security/surfaces/index.md
+      - App-Server:
+        - application-security/surfaces/app-server/index.md
+        - Business-Logic:
+          - application-security/app-server/business-logic/index.md
       - API-Security:
-        - application-security/server-side/api-security/index.md
-      - Business-Logic:
-        - application-security/server-side/business-logic/index.md
-    - Web-Client:
-      - application-security/web-client/index.md
-      - application-security/web-client/javascript-reverse.md
-    - Mobile-Security:
-      - application-security/mobile-security/index.md
-    - Advanced:
-      - application-security/advanced/index.md
-    - DAST:
-      - application-security/dast/index.md
-      - application-security/dast/ast.md
-    - SAST/SDL:
-      - application-security/sdl/index.md
-      - application-security/sdl/sdl.md
-      - application-security/sdl/devsecops.md
-      - application-security/sdl/sast.md
-      - application-security/sdl/sca.md
-      - application-security/sdl/iast.md
+        - application-security/surfaces/api-security/index.md
+      - Web-Client:
+        - application-security/surfaces/web-client/index.md
+        - application-security/surfaces/web-client/javascript-reverse.md
+      - Mobile-Security:
+        - application-security/surfaces/mobile-security/index.md
+    - Security-Testing:
+      - application-security/security-testing/index.md
+      - DAST:
+        - application-security/security-testing/dast/index.md
+        - application-security/security-testing/dast/ast.md
+      - SAST/SDL:
+        - application-security/security-testing/sdl/index.md
+        - application-security/security-testing/sdl/sdl.md
+        - application-security/security-testing/sdl/devsecops.md
+        - application-security/security-testing/sdl/sast.md
+        - application-security/security-testing/sdl/sca.md
+        - application-security/security-testing/sdl/iast.md
     - Vuln-Reproduction:
       - application-security/vulnerability-reproduction/index.md
     - Protection:
@@ -214,24 +216,29 @@ nav:
 
   - Network-Security:
     - network-security/index.md
-    - Packet-Capture:
-      - network-security/packet-capture/index.md
-    - Traffic-Analysis:
-      - network-security/traffic-analysis/index.md
+    - Traffic:
+      - network-security/traffic/index.md
+      - Packet-Capture:
+        - network-security/traffic/packet-capture/index.md
+      - Traffic-Analysis:
+        - network-security/traffic/traffic-analysis/ndex.md
     - Protocol-Security:
       - network-security/protocol-security/index.md
-    - Wireless-Security:
-      - network-security/wireless-security/index.md
-    - MitM:
-      - network-security/mitm/index.md
-    - E2EE:
-      - network-security/e2ee/index.md
-    - Pentesting:
-      - network-security/pentesting/index.md
+      - E2EE:
+        - network-security/protocol-security/e2ee/index.md
+    - Attack:
+      - network-security/attack/index.md
+      - MitM:
+        - network-security/attack/mitm/index.md
+      - NAT-Traversal:
+        - network-security/attack/nat-traversal/index.md
+      - Pentesting:
+        - network-security/attack/pentesting/index.md
+      - Wireless-Security:
+        - network-security/wireless-security/index.md
     - Protection:
       - network-security/protection/index.md
-    - NAT-Traversal:
-      - network-security/nat-traversal/index.md
+
 
   - System-Security:
     - system-security/index.md
