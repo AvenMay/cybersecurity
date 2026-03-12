@@ -194,13 +194,12 @@ nav:
       - Web-Client:
         - application-security/surfaces/web-client/index.md
         - application-security/surfaces/web-client/javascript-reverse.md
-      - Mobile-Security:
-        - application-security/surfaces/mobile-security/index.md
+      - Mobile-Client:
+        - application-security/surfaces/mobile-client/index.md
     - Security-Testing:
       - application-security/security-testing/index.md
       - DAST:
         - application-security/security-testing/dast/index.md
-        - application-security/security-testing/dast/ast.md
       - SAST/SDL:
         - application-security/security-testing/sdl/index.md
         - application-security/security-testing/sdl/sdl.md
