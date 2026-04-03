@@ -256,7 +256,7 @@ nav:
   - Cloud-Security:
     - topics/cloud-security/index.md
 
-  - IoT/OT-Security:
+  - IoT-Security:
     - topics/iot-security/index.md
 
 plugins:
