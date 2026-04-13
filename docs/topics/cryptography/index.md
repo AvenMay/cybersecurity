@@ -1,5 +1,8 @@
 # Cryptography
 
+
+> 在密码学奠基人克劳德·香农（Claude Shannon）的理论中，加密的核心就是混淆（Confusion）和扩散（Diffusion）。
+
 ## Resources
 
 ### Books

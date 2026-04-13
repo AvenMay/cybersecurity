@@ -140,6 +140,8 @@ nav:
 
   - Cryptography: 
     - topics/cryptography/index.md
+    - topics/cryptography/encoding.md
+    - topics/cryptography/confusion.md
     - topics/cryptography/tools.md
     - topics/cryptography/attack.md
 
