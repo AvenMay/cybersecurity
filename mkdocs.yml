@@ -206,7 +206,6 @@ nav:
       - topics/app-security/security-testing/index.md
       - DAST:
         - topics/app-security/security-testing/dast/index.md
-        - topics/app-security/security-testing/dast/ast.md
       - SAST/SDL:
         - topics/app-security/security-testing/sdl/index.md
         - topics/app-security/security-testing/sdl/sdl.md
