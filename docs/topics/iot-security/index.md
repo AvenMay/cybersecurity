@@ -1,3 +1,5 @@
-# IoT/OT Security
+# IoT Security
 
-Coming Soon
+## Resources
+
+- [Awesome Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security)
