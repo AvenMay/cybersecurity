@@ -63,6 +63,7 @@ nav:
       - ctf/tools/index.md
     - Writeup:
       - ctf/writeup/index.md
+      
   - Offensive-Security:
     - offensive/index.md
     - Preparation:
